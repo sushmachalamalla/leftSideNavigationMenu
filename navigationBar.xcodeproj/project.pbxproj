@@ -14,6 +14,11 @@
 		FC68A3D91AE5D1BC00207B0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC68A3D81AE5D1BC00207B0A /* Images.xcassets */; };
 		FC68A3DC1AE5D1BC00207B0A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC68A3DA1AE5D1BC00207B0A /* LaunchScreen.xib */; };
 		FC68A3E81AE5D1BC00207B0A /* navigationBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC68A3E71AE5D1BC00207B0A /* navigationBarTests.swift */; };
+		FC68A46B1AE5D61B00207B0A /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FC68A4631AE5D61B00207B0A /* MMDrawerBarButtonItem.m */; };
+		FC68A46C1AE5D61B00207B0A /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC68A4651AE5D61B00207B0A /* MMDrawerController.m */; };
+		FC68A46D1AE5D61B00207B0A /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = FC68A4681AE5D61B00207B0A /* MMDrawerVisualState.m */; };
+		FC68A46E1AE5D61B00207B0A /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC68A46A1AE5D61B00207B0A /* UIViewController+MMDrawerController.m */; };
+		FC68A4701AE5DB0400207B0A /* leftTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC68A46F1AE5DB0400207B0A /* leftTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,17 @@
 		FC68A3E11AE5D1BC00207B0A /* navigationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = navigationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC68A3E61AE5D1BC00207B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC68A3E71AE5D1BC00207B0A /* navigationBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationBarTests.swift; sourceTree = "<group>"; };
+		FC68A4611AE5D61A00207B0A /* navigationBar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "navigationBar-Bridging-Header.h"; sourceTree = "<group>"; };
+		FC68A4621AE5D61B00207B0A /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		FC68A4631AE5D61B00207B0A /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		FC68A4641AE5D61B00207B0A /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		FC68A4651AE5D61B00207B0A /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		FC68A4661AE5D61B00207B0A /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		FC68A4671AE5D61B00207B0A /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		FC68A4681AE5D61B00207B0A /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		FC68A4691AE5D61B00207B0A /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		FC68A46A1AE5D61B00207B0A /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		FC68A46F1AE5DB0400207B0A /* leftTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leftTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +95,7 @@
 		FC68A3CB1AE5D1BC00207B0A /* navigationBar */ = {
 			isa = PBXGroup;
 			children = (
+				FC68A3F51AE5D52100207B0A /* Menucontrollers */,
 				FC68A3CE1AE5D1BC00207B0A /* AppDelegate.swift */,
 				FC68A3D31AE5D1BC00207B0A /* ViewController.swift */,
 				FC68A3D51AE5D1BC00207B0A /* Main.storyboard */,
@@ -86,6 +103,7 @@
 				FC68A3DA1AE5D1BC00207B0A /* LaunchScreen.xib */,
 				FC68A3D01AE5D1BC00207B0A /* navigationBar.xcdatamodeld */,
 				FC68A3CC1AE5D1BC00207B0A /* Supporting Files */,
+				FC68A46F1AE5DB0400207B0A /* leftTableViewController.swift */,
 			);
 			path = navigationBar;
 			sourceTree = "<group>";
@@ -113,6 +131,23 @@
 				FC68A3E61AE5D1BC00207B0A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC68A3F51AE5D52100207B0A /* Menucontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				FC68A4621AE5D61B00207B0A /* MMDrawerBarButtonItem.h */,
+				FC68A4631AE5D61B00207B0A /* MMDrawerBarButtonItem.m */,
+				FC68A4641AE5D61B00207B0A /* MMDrawerController.h */,
+				FC68A4651AE5D61B00207B0A /* MMDrawerController.m */,
+				FC68A4661AE5D61B00207B0A /* MMDrawerController+Subclass.h */,
+				FC68A4671AE5D61B00207B0A /* MMDrawerVisualState.h */,
+				FC68A4681AE5D61B00207B0A /* MMDrawerVisualState.m */,
+				FC68A4691AE5D61B00207B0A /* UIViewController+MMDrawerController.h */,
+				FC68A46A1AE5D61B00207B0A /* UIViewController+MMDrawerController.m */,
+				FC68A4611AE5D61A00207B0A /* navigationBar-Bridging-Header.h */,
+			);
+			name = Menucontrollers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,7 +252,12 @@
 			files = (
 				FC68A3D41AE5D1BC00207B0A /* ViewController.swift in Sources */,
 				FC68A3CF1AE5D1BC00207B0A /* AppDelegate.swift in Sources */,
+				FC68A4701AE5DB0400207B0A /* leftTableViewController.swift in Sources */,
+				FC68A46B1AE5D61B00207B0A /* MMDrawerBarButtonItem.m in Sources */,
+				FC68A46E1AE5D61B00207B0A /* UIViewController+MMDrawerController.m in Sources */,
+				FC68A46C1AE5D61B00207B0A /* MMDrawerController.m in Sources */,
 				FC68A3D21AE5D1BC00207B0A /* navigationBar.xcdatamodeld in Sources */,
+				FC68A46D1AE5D61B00207B0A /* MMDrawerVisualState.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +380,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = navigationBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "navigationBar/navigationBar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +393,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = navigationBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "navigationBar/navigationBar-Bridging-Header.h";
 			};
 			name = Release;
 		};

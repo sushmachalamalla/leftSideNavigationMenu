@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func menuButton(sender: UIBarButtonItem) {
+        var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+        appDelegate.centerContainer!.toggleDrawerSide(MMDrawerSide.Left, animated: true, completion: nil)
+    }
 
 }
 
